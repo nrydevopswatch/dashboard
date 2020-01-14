@@ -14,7 +14,7 @@ function App() {
   const currentTheme = useSelector(state => state.theme.currentTheme);
 
   return (
-    <Grommet theme={currentTheme === "light" ? lightTheme : darkTheme} full>
+    <Grommet theme={currentTheme === "dark" ? lightTheme : darkTheme} full>
       <GlobalStyles />
         <Layout>
           <Switch>
