@@ -1,7 +1,7 @@
 const lightTheme = {
   global: {
     colors: {
-      brand: "#808000",
+      brand: "#FF7F50",
       background: "#ECECEC"
     },
     font: {
