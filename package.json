@@ -40,5 +40,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "keywords": [],
+  "description": "React Grommet V2 based Dashboard UI with Router and Redux"
 }
