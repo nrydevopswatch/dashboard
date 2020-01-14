@@ -4,13 +4,13 @@ const darkTheme = {
       brand: "#424242",
       border: {
         dark: "#ebebeb",
-        light: "#444444"
+        light: "#ff0000"
       },
-      background: "#212121",
+      background: "#474B4F",
       placeholder: "rgba(68, 68, 68, 0.5)",
       control: {
-        dark: "#DEDEDE",
-        light: "#212121"
+        dark: "#474B4F",
+        light: "#ff0000"
       },
       "accent-1": "#e67373",
       "accent-2": "#804040",
