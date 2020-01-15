@@ -1,10 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
-import {
-  toggleLeftPanel,
-  toggleRightPanel
-} from "../../redux/layout/layout.action";
+import { toggleRightPanel } from "../../redux/layout/layout.action";
 import { toggleTheme } from "../../redux/theme/theme.action";
 import { Box, Button, Heading } from "grommet";
 import { Notification, Info } from "grommet-icons";
@@ -30,8 +27,8 @@ const Header = () => {
       elevation="medium"
       style={{ zIndex: "1" }}
     >
-      <StyledHeading level="3" margin="none" onClick={() => history.push("/")}>
-        Coders of Fortune
+      <StyledHeading level="3" justify="center" onClick={() => history.push("/")}>
+        Dashboard
       </StyledHeading>
       <Box direction="row">
         <Button icon={<Info />} onClick={() => dispatch(toggleTheme())} />

@@ -8,8 +8,9 @@ const NavPanel = ({ isOpen }) => {
   const dispatch = useDispatch();
   return (
     <Box
-      style={{ position: "absolute", top: 0, left: 0 }}
+      style={{ position: "absolute", top: 0, left: 0, minWidth: "48px" }}
       margin={{ left: isOpen ? "200px" : "0px" }}
+      background="brand"
     >
       <Button
         icon={<Menu />}
