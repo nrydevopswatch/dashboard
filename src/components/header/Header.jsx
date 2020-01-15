@@ -7,7 +7,7 @@ import {
 } from "../../redux/layout/layout.action";
 import { toggleTheme } from "../../redux/theme/theme.action";
 import { Box, Button, Heading } from "grommet";
-import { Notification, Info, Template } from "grommet-icons";
+import { Notification, Info } from "grommet-icons";
 import styled from "styled-components";
 
 const StyledHeading = styled(Heading)`
@@ -35,7 +35,6 @@ const Header = () => {
       </StyledHeading>
       <Box direction="row">
         <Button icon={<Info />} onClick={() => dispatch(toggleTheme())} />
-        <Button icon={<Template />} onClick={() => dispatch(toggleLeftPanel())} />
         <Button icon={<Notification />} onClick={() => dispatch(toggleRightPanel())} />
       </Box>
     </Box>

@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
                   align="center"
                   justify="start"
                 >
-                  click me button to collapse?
+                  Notifications can go here
                 </Box>
               </Collapsible>
             ) : (

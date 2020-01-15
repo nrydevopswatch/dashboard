@@ -10,7 +10,7 @@
 # Grommet V2 REACT REUSE DASHBOARD Demo website
 ![](./images/react_reuse.png)
 
-Dashboard demo website of custom reusable React components with global state store using Redux. Elegant UI/UX using React and GrommetV2
+Dashboard demo website of custom reusable React components with global state store using Redux. Elegant UI/UX using React and GrommetV2 and styled components
 
 ## Outline
 

@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { toggleLeftPanel } from "../../redux/layout/layout.action";
 import { Box, Button } from "grommet";
-import { Next } from "grommet-icons";
+import { Menu } from "grommet-icons";
 
 const NavPanel = ({ isOpen }) => {
   const dispatch = useDispatch();
@@ -12,7 +12,7 @@ const NavPanel = ({ isOpen }) => {
       margin={{ left: isOpen ? "200px" : "0px" }}
     >
       <Button
-        icon={<Next />}
+        icon={<Menu />}
         hoverIndicator={true}
         onClick={() => dispatch(toggleLeftPanel())}
       />
