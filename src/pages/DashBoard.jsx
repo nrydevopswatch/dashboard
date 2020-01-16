@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "grommet";
-import Card from "../components/card/Card";
+import Card from "../components/Card";
 
 const DashBoard = () => {
   const data = [1, 2, 3, 4];

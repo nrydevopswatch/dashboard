@@ -1,11 +1,11 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { toggleRightPanel } from "../../redux/layout/layout.action";
+import { toggleRightPanel } from "../redux/layout/layout.action";
 import { Box, Button, Collapsible, ResponsiveContext, Layer } from "grommet";
 import { FormClose } from "grommet-icons";
-import Header from "../header/Header";
-import NavPanel from "../nav-panel/NavPanel";
+import Header from "./Header";
+import NavPanel from "./NavPanel";
 
 const Layout = ({ children }) => {
   const dispatch = useDispatch();

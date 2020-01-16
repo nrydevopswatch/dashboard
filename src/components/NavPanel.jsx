@@ -1,8 +1,8 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { toggleLeftPanel } from "../../redux/layout/layout.action";
+import { toggleLeftPanel } from "../redux/layout/layout.action";
 import { Box, Button } from "grommet";
-import { Menu } from "grommet-icons";
+import { Menu, Close } from "grommet-icons";
 
 const NavPanel = ({ isOpen }) => {
   const dispatch = useDispatch();
