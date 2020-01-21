@@ -1,9 +1,9 @@
 import React from "react";
-import Overview from "../components/Overview";
+import CustomDataTable from "../components/CustomDataTable";
 
 const HomePage = () => (
   <div>
-    <Overview />
+    <CustomDataTable />
   </div>
 );
 

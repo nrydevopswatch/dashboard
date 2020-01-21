@@ -7,7 +7,7 @@ import { Route, Switch } from "react-router-dom";
 import { GlobalStyles } from "./globalStyles";
 import Layout from "./components/Layout";
 import HomePage from "./pages/HomePage";
-import DashBoard from "./pages/DashBoard";
+// import DashBoard from "./pages/DashBoard";
 
 function App() {
   const currentTheme = useSelector(state => state.theme.currentTheme);
@@ -18,7 +18,7 @@ function App() {
         <Layout>
           <Switch>
             <Route exact path="/" component={HomePage} />
-            <Route exact path="/dashboard" component={DashBoard} />
+            {/* <Route exact path="/dashboard" component={DashBoard} /> */}
           </Switch>
         </Layout>
     </Grommet>
