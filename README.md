@@ -21,9 +21,10 @@ https://codesandbox.io/s/github/nrydevopswatch/dashboard
 - Based on latest React and Grommet V2 UI library
 - Using styled-components for elegent design
 
+## Global State Management - Reusable React Components Framework
 ![](./images/redux.png)
 
-## Framework
+## Grommet V2 UI/UX Framework
 https://v2.grommet.io/components
 
 ## To Run It Locally
