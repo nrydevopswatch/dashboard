@@ -1,5 +1,5 @@
 import React from "react";
-import { Grommet, Box, DataTable } from "grommet";
+import { Box, DataTable } from "grommet";
 
 import { columns, DATA } from "./data";
 
