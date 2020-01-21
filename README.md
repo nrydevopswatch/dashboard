@@ -12,6 +12,9 @@
 
 Dashboard demo website of custom reusable React components with global state store using Redux. Elegant UI/UX using React and GrommetV2 and styled components
 
+## CodeSandBox Live Demo
+https://codesandbox.io/s/github/nrydevopswatch/dashboard
+
 ## Outline
 
 - Based on official "Create React App"
