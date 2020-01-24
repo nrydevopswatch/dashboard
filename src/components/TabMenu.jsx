@@ -1,42 +1,30 @@
-import React from 'react';
-import PropTypes from "prop-types";
-import { Box, DropButton, Text } from "grommet";
-import { Close } from "grommet-icons";
+import React from "react";
+import { Anchor, Box, Header, Nav, Menu, ResponsiveContext } from "grommet";
 
-const DropContent = ({ onClose }) => (
-  <Box pad="medium">
-    <Box direction="row" justify="left" align="left">
-    </Box>
-    <Text>Item 1</Text>
-    <Text>Item 2</Text>
-  </Box>
+const CollapsableNav = () => (
+  <Header background="branded" pad="medium">
+    <Box direction="row" align="center" gap="small" />
+    <ResponsiveContext.Consumer>
+      {responsive =>
+        responsive === "small" ? (
+          <Menu
+            label="MENU"
+            items={[
+              { label: "Menu", onClick: () => {} },
+              { label: "Quick Links", onClick: () => {} },
+              { label: "Admin", onClick: () => {} }
+            ]}
+          />
+        ) : (
+          <Nav direction="row">
+            <Anchor href="#" label="Menu" />
+            <Anchor href="#" label="Quick Links" />
+            <Anchor href="#" label="Admin" />
+          </Nav>
+        )
+      }
+    </ResponsiveContext.Consumer>
+  </Header>
 );
 
-DropContent.propTypes = {
-  onClose: PropTypes.func.isRequired
-};
-
-const TabMenu = () => {
-  const [open, setOpen] = React.useState();
-  const onOpen = () => {
-    setOpen(true);
-  };
-  const onClose = () => {
-    setOpen(false);
-  };
-
-  return (
-      <Box align="left" pad="none">
-        <DropButton
-          label="Menu"
-          open={open}
-          onOpen={onOpen}
-          onClose={onClose}
-          dropContent={<DropContent onClose={onClose} />}
-          dropProps={{ align: { top: "bottom" } }}
-        />
-      </Box>
-  );
-};
-
-export default TabMenu;
+export default CollapsableNav;
