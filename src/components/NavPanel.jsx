@@ -2,7 +2,10 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { toggleLeftPanel } from "../redux/layout/layout.action";
 import { Box, Button } from "grommet";
-import { Menu, } from "grommet-icons";
+import { Menu } from "grommet-icons";
+
+// Component Imports
+// import Sidebar from "./Sidebar";
 
 const NavPanel = ({ isOpen }) => {
   const dispatch = useDispatch();
