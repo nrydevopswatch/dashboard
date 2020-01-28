@@ -6,10 +6,10 @@ import { toggleTheme } from "../redux/theme/theme.action";
 import { Box, Button, Heading } from "grommet";
 import { Notification, Info } from "grommet-icons";
 import styled from "styled-components";
-import BirdIcon from "./BirdIcon";
 
 // Component Import
 import TabMenu from "./TabMenu";
+import BirdIcon from "./BirdIcon";
 
 const StyledHeading = styled(Heading)`
   &:hover {
