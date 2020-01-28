@@ -1,10 +1,10 @@
 import React from "react";
 import { Box } from "grommet";
-import Excel from "../components/Excel";
+import DataTable from "../components/DataTable";
 
 const HomePage = () => (
   <Box>
-    <Excel />
+    <DataTable />
   </Box>
 );
 
