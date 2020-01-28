@@ -4,8 +4,9 @@ import { useHistory } from "react-router-dom";
 import { toggleRightPanel } from "../redux/layout/layout.action";
 import { toggleTheme } from "../redux/theme/theme.action";
 import { Box, Button, Heading } from "grommet";
-import { Notification, Info, Blank } from "grommet-icons";
+import { Notification, Info } from "grommet-icons";
 import styled from "styled-components";
+import BirdIcon from "./BirdIcon";
 
 // Component Import
 import TabMenu from "./TabMenu";
@@ -30,7 +31,7 @@ const Header = () => {
       elevation="medium"
       style={{ zIndex: "1" }}
     >
-      <Blank />
+      <BirdIcon />
       <TabMenu
         label="Menu"
         align={{ top: "bottom", left: "right" }}
