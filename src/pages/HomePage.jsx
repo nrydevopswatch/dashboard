@@ -1,10 +1,11 @@
 import React from "react";
-import DataSheet from "../components/DataSheet";
+import { Box } from "grommet";
+import Excel from "../components/Excel";
 
 const HomePage = () => (
-  <div>
-    <DataSheet />
-  </div>
+  <Box>
+    <Excel />
+  </Box>
 );
 
 export default HomePage;
