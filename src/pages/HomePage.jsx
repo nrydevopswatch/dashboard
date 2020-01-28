@@ -1,9 +1,9 @@
 import React from "react";
-import ReactTable from "../components/ReactTable";
+import DataSheet from "../components/DataSheet";
 
 const HomePage = () => (
   <div>
-    <ReactTable />
+    <DataSheet />
   </div>
 );
 

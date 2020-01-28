@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Box } from "grommet";
 import { useTable, usePagination } from "react-table";
 
 import makeData from "./makeData";
