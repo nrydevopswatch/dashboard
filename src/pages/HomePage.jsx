@@ -5,6 +5,7 @@ import DataTable from "../components/DataTable";
 const HomePage = () => (
   <Box>
     <DataTable />
+    <DataTable />
   </Box>
 );
 

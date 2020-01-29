@@ -2,6 +2,7 @@ import React from "react";
 import { Box } from "grommet";
 import "react-datasheet/lib/react-datasheet.css";
 import Datasheet from "react-datasheet";
+import generateData from "./data";
 import "./DataTableStyles.css";
 
 export default class BasicSheet extends React.Component {
