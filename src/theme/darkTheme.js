@@ -3,14 +3,14 @@ const darkTheme = {
     colors: {
       brand: "#424242",
       border: {
-        dark: "#ebebeb",
-        light: "#ff0000"
+        dark: "#424242",
+        light: "#BCC6CC"
       },
       background: "#474B4F",
       placeholder: "rgba(68, 68, 68, 0.5)",
       control: {
         dark: "#474B4F",
-        light: "#ff0000"
+        light: "#BCC6CC"
       },
       "accent-1": "#e67373",
       "accent-2": "#804040",
@@ -74,7 +74,7 @@ const darkTheme = {
   anchor: {
     color: {
       dark: "#DEDEDE",
-      light: "#212121"
+      light: "#444444"
     }
   },
   heading: {

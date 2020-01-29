@@ -28,8 +28,8 @@ const Header = () => {
       align="center"
       justify="between"
       background="brand"
-      pad={{ left: "medium", right: "small", vertical: "large" }}
-      elevation="medium"
+      pad={{ left: "xxsmall", right: "xsmall", vertical: "" }}
+      elevation="small"
       style={{ zIndex: "1" }}
     >
       <StyledHeading background="brand" level="3">
