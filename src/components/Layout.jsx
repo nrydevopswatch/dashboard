@@ -5,7 +5,7 @@ import { toggleRightPanel } from "../redux/layout/layout.action";
 import { Box, Button, Collapsible, ResponsiveContext, Layer } from "grommet";
 import { FormClose } from "grommet-icons";
 import Header from "./Header";
-import NavPanel from "./NavPanel";
+import Sidebar from "./Sidebar";
 
 const Layout = ({ children }) => {
   const dispatch = useDispatch();
@@ -19,14 +19,9 @@ const Layout = ({ children }) => {
           <Box direction="row" flex overflow={{ horizontal: "hidden" }}>
             <Box background="brand" style={{ position: "relative" }}>
               <Collapsible direction="horizontal" open={isLeftPanelOpen}>
-                <Box
-                  flex
-                  width="200px"
-                  background="brand"
-                  elevation="small"
-                ></Box>
+                <Box flex width="200px" background="brand" elevation="small" />
               </Collapsible>
-              <NavPanel isOpen={isLeftPanelOpen} />
+              <Sidebar isOpen={isLeftPanelOpen} />
             </Box>
             <Box flex align="center" justify="center">
               {children}
@@ -57,12 +52,7 @@ const Layout = ({ children }) => {
                     onClick={() => dispatch(toggleRightPanel())}
                   />
                 </Box>
-                <Box
-                  fill
-                  background="brand"
-                  align="center"
-                  justify="center"
-                ></Box>
+                <Box fill background="brand" align="center" justify="center" />
               </Layer>
             )}
           </Box>

@@ -39,7 +39,7 @@ const Header = () => {
             border="none"
             path="/"
             icon={<BirdIcon size="xlarge" />}
-            label={size !== "xlarge" && <Text size="xlarge">BIRD</Text>}
+            label={size !== "xlarge" && <Text size="xlarge">Dashboard</Text>}
           />
         </Box>
       </StyledHeading>
@@ -52,9 +52,6 @@ const Header = () => {
             { label: "Second Action", onClick: () => {} }
           ]}
         />
-      </StyledHeading>
-      <StyledHeading level="3" margin="none" onClick={() => history.push("/")}>
-        Dashboard
       </StyledHeading>
       <Box direction="row">
         <Button icon={<Info />} onClick={() => dispatch(toggleTheme())} />
