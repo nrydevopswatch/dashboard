@@ -15,7 +15,7 @@ export const Sidebar = () => {
         <GradientGremlin />
       </Box>
       <Box align="center" gap={size === "small" ? "medium" : "small"}>
-        {["Analytics", "Stakeholder", "Calculator"].map((iconName, index) => (
+        {["Overview", "Request", "Execution"].map((iconName, index) => (
           <TooltipButton key={iconName} iconName={iconName} index={index} />
         ))}
       </Box>

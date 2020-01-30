@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
           <Box direction="row" flex overflow={{ horizontal: "hidden" }}>
             <Box background="brand" style={{ position: "relative" }}>
               <Collapsible direction="horizontal" open={isLeftPanelOpen}>
-                <Box flex width="200px" background="brand" elevation="small" />
+                <Box flex width="50px" background="brand" elevation="small" />
               </Collapsible>
               <Sidebar isOpen={isLeftPanelOpen} />
             </Box>

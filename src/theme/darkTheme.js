@@ -9,7 +9,7 @@ const darkTheme = {
       background: "#474B4F",
       placeholder: "rgba(68, 68, 68, 0.5)",
       control: {
-        dark: "#474B4F",
+        dark: "brand",
         light: "#BCC6CC"
       },
       "accent-1": "#e67373",
@@ -29,6 +29,14 @@ const darkTheme = {
       medium: "0px 3px 8px rgba(68, 68, 68, 0.5)",
       large: "0px 6px 12px rgba(68, 68, 68, 0.5)",
       xlarge: "0px 8px 16px rgba(68, 68, 68, 0.5)"
+    },
+    meter: {
+      control: {
+        dark: "#9060EB",
+        light: "#BCC6CC"
+      },
+      extend:
+        "@keyframes example2 { from { stroke-dashoffset: -400; } to { stroke-dashoffset: 0; } } path { stroke-dasharray: 500; stroke-dashoffset: 1000; animation: example2 1s linear forwards; }"
     },
     drop: {
       background: "rgb(255, 242, 201)",
